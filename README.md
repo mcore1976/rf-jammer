@@ -5,7 +5,7 @@ This is a desription how professional RF jammers are being made. They are using 
 
 If you intend to build a UAV / drone / quadcopter jammer remember that you need to make 3 of such units for the bands GPS ( 1575 MHz) , 2.4GHz WiFI , 5.8 GHz WiFi. Each of such jammers needs to have its own power amplifier and antenna and VCO for different frequency, however all 3 of them can be connected to single sawtooh/triangle signal generator. 
 
-When coosing right RF power amplifier please search for something with heatsink and TQP7M9103 chip : https://www.qorvo.com/products/p/TQP7M9103   or better. Remember that the capacitors , coils and resistors need to fit the particular frequency  apliance from the vendor - there are different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
+When coosing right RF power amplifier please search for something with heatsink and QORVO company TQP7M9103 chip : https://www.qorvo.com/products/p/TQP7M9103   or better. Remember that the capacitors , coils and resistors need to fit the particular frequency  apliance from the vendor - there are different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
 
 The USB RF VCO I was using is build with YSGM 151708 chip from chineese company INNOTION.  http://www.innotion.com.cn/VCO
 
