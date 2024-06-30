@@ -7,6 +7,10 @@ If you intend to build a UAV / drone / quadcopter jammer remember that you need 
 
 When coosing right RF power amplifier please search for something with heatsink and TQP7M9103 chip : https://www.qorvo.com/products/p/TQP7M9103   or better. Remember that the capacitors , coils and resistors need to fit the particular frequency  apliance from the vendor - there are different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
 
+The USB RF VCO I was using is build with YSGM 151708 chip from chineese company INNOTION.  http://www.innotion.com.cn/VCO
+
+these chips can be bought here https://txtelsig.en.made-in-china.com/product/twLGguvjXPWl/China-High-Quality-2g-3G-4G-5g-WiFi-GPS-Vco-Voltage-Controlled-Oscillator.html
+
 The video showing my attempt to build simple GPS jamming device is available here : https://youtu.be/sZCd-gE_p84?si=8e9XHNKYu6v522VL
 
 
