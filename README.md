@@ -17,7 +17,7 @@ In the video I was using following the NE555 triangle signal generator from this
 The triangle signal frequency was approximately 5KHz. 
 Finally I would suggest to use following setup : 4.7nF, 2.2nF, 4.7K, 10K - it gives around 10 meter of GPS jamming range while using only VCO YSGM151708 without additional RF power amplifier. The signal on VTune pin swings between 2V-2.5V which gives jamming in the area 1560MHz - 1590MHz with the frequency 44kHz. 
 
-Always check PDF for particular YGSM chip and Tuning Voltage diagram. Select carefully resistors for NE555 to map to the frequency you want exactly jam. 
+Always check PDF for particular YGSM chip and Tuning Voltage diagram. Select carefully resistors for NE555 to achieve output voltage range that maps to the frequency you want exactly jam. 
 
 
 
