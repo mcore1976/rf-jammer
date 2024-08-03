@@ -13,7 +13,7 @@ these chips can be bought here https://txtelsig.en.made-in-china.com/product/twL
 
 The video showing my attempt to build simple GPS jamming device is available here : https://youtu.be/sZCd-gE_p84?si=8e9XHNKYu6v522VL
 
-In the video I was using following components along with NE555 : 4.7nF, 2.2nF, 100K, 47K. The triangle signal frequency was approximately 5KHz. I suggest to use following setup : 4.7nF, 2.2nF, 4.7K, 10K - it gives around 10meter of GPS jamming range while using only VCO YSGM151708 without additional RF power amplifier. The signal on VTune pin swings between 2V-2.5V which gives jamming in the area 1560MHz - 1590MHz with the frequency 44kHz. 
+In the video I was using following the NE555 triangle signal generator from this page https://www.electroschematics.com/555-triangle-waveform-generator/  with following components along with NE555 : 4.7nF, 2.2nF, 100K, 47K. The triangle signal frequency was approximately 5KHz. Finally I would suggest to use following setup : 4.7nF, 2.2nF, 4.7K, 10K - it gives around 10 meter of GPS jamming range while using only VCO YSGM151708 without additional RF power amplifier. The signal on VTune pin swings between 2V-2.5V which gives jamming in the area 1560MHz - 1590MHz with the frequency 44kHz. 
 Always check PDF for particular YGSM chip and Tuning Voltage diagram. Select carefully resistors for NE555 to map to the frequency you want exactly jam. 
 
 
