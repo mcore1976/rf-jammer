@@ -8,7 +8,7 @@ Each of such jammers needs to have its own power amplifier and antenna and VCO f
 Each Channel may require to use different triangle/sawtooth generator - another NE555 chip with different Resistors and Capacitors values for each VCO chip and frequency - this is due to different characteristics of VCO modules (check "Frequency vs Tunning Voltage" diagram in YGSM chip PDFs).
 
 When choosing right RF power amplifier please search for something with heatsink and QORVO company TQP7M9103 / TQP7M9105 chip  or better: https://www.qorvo.com/products/p/TQP7M9103.
-Remember that the capacitors , coils and resistors on TQP7M9103 dev kit bboard need to fit the particular frequency  apliance from the vendor.
+Remember that the capacitors , coils and resistors on TQP7M9103 dev kit board need to fit the particular frequency apliance from the vendor.
 TQP7M9103 dev kit has different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
 
 The USB RF VCO I was using is build with YSGM 151708 chip from chineese company INNOTION.  http://www.innotion.com.cn/VCO
