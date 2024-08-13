@@ -17,7 +17,7 @@ These chips can be bought here https://txtelsig.en.made-in-china.com/product/twL
 
 The video showing my attempt to build simple GPS jamming device is available here : https://youtu.be/sZCd-gE_p84?si=8e9XHNKYu6v522VL
 
-In the video I was using following the NE555 triangle signal generator from this page https://www.electroschematics.com/555-triangle-waveform-generator/  with following components along with NE555 : 4.7nF, 2.2nF, 100K, 47K. 
+In the video I was using following the NE555 triangle signal generator from this page https://www.electroschematics.com/555-triangle-waveform-generator/  with following components along with NE555 : 47nF, 22nF, 100K, 47K. 
 The triangle signal frequency was approximately 5KHz. 
 
 For different chips  I would suggest to use following setup : 
