@@ -7,7 +7,7 @@ If you intend to build a UAV / drone / quadcopter jammer remember that you need 
 Each of such jammers needs to have its own power amplifier and antenna and VCO for different frequency. 
 Each Channel may require to use different triangle/sawtooth generator - another NE555 chip with different Resistors and Capacitors values for each VCO chip and frequency - this is due to different characteristics of VCO modules (check "Frequency vs Tunning Voltage" diagram in YGSM chip PDFs).
 
-When choosing right RF power amplifier please search for something with heatsink and QORVO company TQP7M9103 or SBB5089Z chip  or better: https://www.qorvo.com/products/p/TQP7M9103 , https://www.qorvo.com/products/d/da001309 
+When choosing right RF power amplifier please search for something with heatsink and QORVO company TQP7M9103 (1Watt)  or SBB5089Z chip (0.1Watt)  or better: https://www.qorvo.com/products/p/TQP7M9103 , https://www.qorvo.com/products/d/da001309 
 Remember that the capacitors , coils and resistors on TQP7M9103 dev kit board need to fit the particular frequency apliance from the vendor. The TQP7M9103 boards from chinese vendors need to be altered, they do not work out of the box.
 TQP7M9103 dev kit has different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
 For the SBB5089Z it looks better because it is 50MHz-6000MHz wideband power amplifier which only requires couple of components that do not change along with the frequency.
