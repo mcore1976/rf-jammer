@@ -9,8 +9,9 @@ Each Channel may require to use different triangle/sawtooth generator - another 
 
 When choosing right RF power amplifier please search for something with heatsink and QORVO company TQP7M9103 (1Watt)  or SBB5089Z chip (0.1Watt)  or better: https://www.qorvo.com/products/p/TQP7M9103 , https://www.qorvo.com/products/d/da001309 
 Remember that the capacitors , coils and resistors on TQP7M9103 dev kit board need to fit the particular frequency apliance from the vendor. The TQP7M9103 boards from chinese vendors need to be altered, they do not work out of the box.
-TQP7M9103 dev kit has different setups for each center RF frequency - check the Bill of Material pages of attached PDF. 
-For the SBB5089Z it looks better because it is 50MHz-6000MHz wideband power amplifier which only requires couple of components that do not change along with the frequency.
+TQP7M9103 dev kit has different setups for each center RF frequency - check the Bill of Material pages of attached PDF. If you intend to use TQP7M9103 on chinese board please check this thread : https://forum.amsat-dl.org/index.php?thread/304-driver-pa-up-to-1w/&pageNo=4
+
+For the SBB5089Z it looks better because it is 50MHz-6000MHz wideband power amplifier which only requires couple of components that do not change along with the frequency. The SBB5089Z boards work out of the box when connected directly to the VCO output. They give around 100mW / 20dBm of power for all of the VCOs I tried.
 
 The USB RF VCO I was using is build with YSGM 151708 chip from chineese company INNOTION.  http://www.innotion.com.cn/VCO
 These chips can be bought here https://txtelsig.en.made-in-china.com/product/twLGguvjXPWl/China-High-Quality-2g-3G-4G-5g-WiFi-GPS-Vco-Voltage-Controlled-Oscillator.html or on Aliexpress.
