@@ -25,7 +25,7 @@ For different chips  I would suggest to use following setup :
 
 a) VCO chip YSGM 151708 ( GPS band 1575 MHz ) - use 4.7nF, 2.2nF, 4.7K, 10K - it gives around 10 meter of GPS jamming range while using only VCO YSGM151708 without additional RF power amplifier. The signal on VTune pin swings between 2V-2.5V which gives jamming in the area 1560MHz - 1590MHz with the frequency 44kHz. 
 
-b) VCO chip YSGM 232508 (Wifi/Bluetotth 2.4GHz band) - use R1=3K, R2=2K, C2 = 4.7nF, C1 = 6.8nF - The signal on VTune pin swings between 1.5V-3.5V which is sufficient to drive VCO around 2.4GHz Wifi/Bluetooth frequency.
+b) VCO chip YSGM 232508 (Wifi/Bluetotth 2.4GHz band) - use R1=3K, R2=2K, C2 = 4.7nF, C1 = 6.8nF - The signal on VTune pin swings between 1.5V-3.5V which is sufficient to drive VCO around 2.4GHz Wifi/Bluetooth frequency. If you want to reach 4V+ VTune please swap 3K resistor to 2K or less.   I used R1 = 2K, R2 = 2K to cope with this VCO
 
 
 Always check PDF for particular YGSM chip and Tuning Voltage diagram. Select carefully resistors for NE555 to achieve output voltage range that maps to the frequency you want exactly jam. 
