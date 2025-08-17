@@ -16,15 +16,10 @@ For the SBB5089Z it looks better because it is 50MHz-6000MHz wideband power ampl
 The USB RF VCO I was using is build with YSGM 151708 chip from chineese company INNOTION.  http://www.innotion.com.cn/VCO
 These chips can be bought here https://txtelsig.en.made-in-china.com/product/twLGguvjXPWl/China-High-Quality-2g-3G-4G-5g-WiFi-GPS-Vco-Voltage-Controlled-Oscillator.html or on Aliexpress.
 
-The video showing my attempt to build simple GPS jamming device is available here : https://youtu.be/sZCd-gE_p84?si=8e9XHNKYu6v522VL
-
-In the video I was using following the NE555 triangle signal generator from this page https://www.electroschematics.com/555-triangle-waveform-generator/  with following components along with NE555 : 47nF, 22nF, 100K, 47K. 
+For the testing I build the NE555 based triangle signal generator from this page https://www.electroschematics.com/555-triangle-waveform-generator/  with following components along with NE555 : 47nF, 22nF, 100K, 47K. 
 The triangle signal frequency was approximately 5KHz. 
 
-For different chips  I would suggest to use following setup : 
-
-VCO chip YSGM 232508 (Wifi/Bluetotth 2.4GHz band) - use R1=3K, R2=2K, C2 = 4.7nF, C1 = 6.8nF - The signal on VTune pin swings between 1.5V-3.5V which is sufficient to drive VCO around 2.4GHz Wifi/Bluetooth frequency. If you want to reach 4V+ VTune please swap 3K resistor to 2K or less.   I used R1 = 2K, R2 = 2K to cope with this VCO
-
+For different chips you need to have different R/C component setup. For example for VCO chip YSGM 232508 (Wifi/Bluetotth 2.4GHz band) - use R1=3K, R2=2K, C2 = 4.7nF, C1 = 6.8nF - The signal on VTune pin swings between 1.5V-3.5V which is sufficient to drive VCO around 2.4GHz Wifi/Bluetooth frequency. If you want to reach 4V+ VTune please swap 3K resistor to 2K or less.   I used R1 = 2K, R2 = 2K to cope with this VCO
 
 Always check PDF for particular YGSM chip and Tuning Voltage diagram. Select carefully resistors for NE555 to achieve output voltage range that maps to the frequency you want exactly jam. 
 
